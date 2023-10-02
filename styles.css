@@ -61,10 +61,10 @@ a{
   background-image: url("images/snare.png");
 }
 .k{
-  background-image: url("images/crash.png");
+  background-image: url("images/kick.png");
 }
 .l{
-  background-image: url("images/kick.png");
+  background-image: url("images/crash.png");
 }
 .pressed{
   box-shadow: 0 3px 4px 0 #DBEDF3;
