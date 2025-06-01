@@ -1,0 +1,133 @@
+h1{
+  text-align: center;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  line-height: 1.2;
+}
+h3{
+  padding:2rem 2rem 1rem 7rem;
+  font-family: 'BIZ UDGothic', sans-serif;
+  margin:20px;
+  line-height: 1.5;
+}
+#intro{
+  background-image: url(images/background.jpg);
+  background-size: cover;
+}
+.form{
+  padding:20px;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+ul{
+  margin-left: auto;
+}
+li{
+  font-size: 20px;
+  margin:20px;
+}
+.navbar{
+  margin:auto;
+}
+.container{
+  padding:10px;
+  margin left:50px;
+}
+.heading{
+  margin-left: 120px;
+  padding:50px;
+
+}
+.addheading{
+  margin-bottom:30px;
+  color:#fff;
+}
+.form-label{
+  color:#fff;
+}
+.addform{
+  padding:8% 4% 8% 4%;
+}
+.addbutton{
+  margin:30px 20px 20px 0;
+}
+.clearbutton{
+  margin:30px 20px 20px 0;
+}
+.listheading{
+  margin:25px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+td{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+#addpage{
+  background-color: black;
+}
+#footersec{
+  background-color: black;
+}
+.listcontainer{
+  padding:20px;
+}
+.contactsec{
+  display:flex;
+  color:#fff;
+  padding:40px;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+  align-items: center;
+}
+.footer-links{
+  margin: 20px;
+  color:#fff;
+}
+.copyright{
+
+  margin:20px;
+}
+@media(max-width:400px){
+  *{
+    margin: 0;
+    padding:0;
+  }
+  h1{
+    font-size: 4rem;
+
+  }
+  #intro{
+    background: #fff;
+    background-color:#fff;
+  }
+  .heading{
+    padding:0;
+    margin:0;
+  }
+  h3{
+    font-size: 1rem;
+    padding:5px;
+    font-family: 'BIZ UDGothic', sans-serif;
+    margin:10px;
+    line-height: 2;
+    text-align: center;
+  }
+td{
+  font-size: 13px;
+  overflow:hidden;
+}
+.contactsec{
+  padding:20px;
+}
+.nav-link{
+  font-size: 15px;
+}
+.addform{
+  padding:30px;
+}
+}
