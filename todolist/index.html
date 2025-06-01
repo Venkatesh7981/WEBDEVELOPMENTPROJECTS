@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap" rel="stylesheet">
+    <title>todolist</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">ToDoList</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbardropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbardropdown">
+
+          
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#todolist">Your list</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#addpage">Add Task</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <section id="intro">
+<div class="container">
+  <div class="heading">
+
+  <h1>PLAN YOUR DAY</h1>
+  <h3>Organise your life style and improve productivity by orgainising the tasks you need to do.</h3>
+
+</div>
+
+</div>
+  </section>
+
+    <section id="addpage">
+
+      <div class="addform">
+
+       <h2 class="addheading" >UPDATE YOUR TASK</h2>
+      <div class="mb-3">
+        <label for="title" class="form-label">your title</label>
+        <input class="form-control" id="title"placeholder="Enter title">
+      </div>
+      <div class="mb-3">
+        <label for="description" class="form-label">title's description</label>
+        <textarea class="form-control" id="description" placeholder=" Enter description" ows="3"></textarea>
+      </div>
+      <div class="col-auto">
+     <button type="submit" class="btn addbutton btn-light mb-3">Add to list</button>
+     <button type="submit" class="btn clearbutton btn-light mb-3 " onclick="clearstorage()">Clear list</button>
+    </div>
+
+    </div>
+
+    </section>
+    <section id="todolist">
+      <div class="listcontainer">
+        <h2 class="listheading">YOUR'S TO DO LIST</h2>
+      <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">S.NO</th>
+        <th scope="col">TITLE</th>
+        <th scope="col">DESCRIPTION</th>
+        <th scope="col">ACTION</th>
+      </tr>
+    </thead>
+    <tbody id="tablebody">
+      <tr>
+        <td scope="row">1</td>
+        <td>get coffee</td>
+        <td>cofee is useful and will bring relaxation for coders .so get coders</td>
+        <td><button type="button" class="btn btn-dark btn-sm">Delete</button></td>
+      </tr>
+
+    </tbody>
+    </table>
+  </div>
+
+    </section>
+<section id="footersec">
+  <div class="contactsec">
+    <footer id="footer">
+
+
+    <a class="footer-links" href="#"> <i class="fa-brands fa-twitter"> </i></a>
+    <a class="footer-links" href="#"><i class="footer-icons fa-brands fa-facebook"> </i></a>
+
+    <a class="footer-links" href="https://instagram.com/sunny_sarath_99?igshid=YmMyMTA2M2Y=" target="_blank"> <i class="footer-icons fa-brands fa-instagram"></i></a>
+    <a class="footer-links" href="mailto: sharth55037@gmail.com" target="_blank"><i class="footer-icons fa-solid fa-envelope"></i> </a>
+
+
+    <p class="copyright">© Copyright Kuruva Venkatesh</p>
+
+  </footer>
+  </div>
+
+</section>
+
+
+<script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
